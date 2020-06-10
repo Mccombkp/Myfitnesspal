@@ -33,7 +33,7 @@ receiver_email = reciever_email_address
 Automate Reporting
 ------------
 
-The best way to take advantage of <app?> is to run this program on a headless server so that you can ...
+The best way to take advantage of script is to run it on a headless server to send out on a daily basis.
 
 For beginners, you can check out [this article](https://towardsdatascience.com/running-jupyter-notebook-in-google-cloud-platform-in-15-min-61e16da34d52) to help you get set up.
 
@@ -42,6 +42,6 @@ A few things to note though is that setup for Plotly Orca, which saves the plotl
 
 Here are a few steps to take when downloading it:
 
-1:) Download latest app image from this Git: https://github.com/plotly/orca
+1:) Download [latest app image](https://github.com/plotly/orca/releases/download/v1.3.1/orca-1.3.1.AppImage) from [here](https://github.com/plotly/orca).
 2:) within the ubuntu terminal, make the file executable by <verb> chmod a+rx path/to/orca
 3:) Finally, execute the file by: xfvb run app image
