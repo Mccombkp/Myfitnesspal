@@ -6,3 +6,11 @@ For me, this helped me optimize my meal preps based on a weekly rather than a da
 
 Installation
 ------------
+
+Begin with installing the needed packages:
+
+#
+#
+#
+#
+#
