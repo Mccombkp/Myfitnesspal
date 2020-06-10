@@ -4,6 +4,8 @@ So I created this simple yet great email report using python and Jupyter Noteboo
 
 For me, this helped me optimize my meal preps based on a weekly rather than a daily view to help me fulfill my caloric and macro nutritional needs. It also helped me figure out when I can have my "cheat meals" and not have to worry about gaining any weight.
 
+Credit to Coddingtonbear <hyperlink> for creating this python package.
+
 Installation
 ------------
 
