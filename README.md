@@ -35,7 +35,7 @@ Automate Reporting
 
 The best way to take advantage of <app?> is to run this program on a headless server so that you can ...
 
-For beginners, you can check out this article to help you get set up: https://towardsdatascience.com/running-jupyter-notebook-in-google-cloud-platform-in-15-min-61e16da34d52
+For beginners, you can check out [this article](https://towardsdatascience.com/running-jupyter-notebook-in-google-cloud-platform-in-15-min-61e16da34d52) to help you get set up.
 
 
 A few things to note though is that setup for Plotly Orca, which saves the plotly charts as a .png, is a little different on Ubuntu.
