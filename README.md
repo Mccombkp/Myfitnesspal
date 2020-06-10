@@ -6,13 +6,42 @@ For me, this helped me optimize my meal preps based on a weekly rather than a da
 
 Credit to Coddingtonbear <hyperlink> for creating this python package.
 
-Installation
+Requirements
 ------------
 
-Begin with installing the needed packages:
+Along with the standard packages that are included with Python, this project uses the following Python libraries
 
-#
-#
-#
-#
-#
+```python
+pip install plotly
+pip install python-pptx
+```
+
+Personalizing
+------------
+Change the following variables to match your Myfitnesspal login information as well as the login information from the email address that will email the report to yourself.
+
+```python
+client = mfp.Client(USERNAME, PASSWORD)
+```
+
+```python
+EMAIL_ADDRESS = sender_email_address
+PASSWORD = EMAIL_PASSWORD
+receiver_email = reciever_email_address
+```
+
+Automate Reporting
+------------
+
+The best way to take advantage of <app?> is to run this program on a headless server so that you can ...
+
+For beginners, you can check out this article to help you get set up: https://towardsdatascience.com/running-jupyter-notebook-in-google-cloud-platform-in-15-min-61e16da34d52
+
+
+A few things to note though is that setup for Plotly Orca, which saves the plotly charts as a .png, is a little different on Ubuntu.
+
+Here are a few steps to take when downloading it:
+
+1:) Download latest app image from this Git: https://github.com/plotly/orca
+2:) within the ubuntu terminal, make the file executable by <verb> chmod a+rx path/to/orca
+3:) Finally, execute the file by: xfvb run app image
