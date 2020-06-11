@@ -44,6 +44,6 @@ Here are a few steps to take when downloading it:
 
 1:) Download [latest app image](https://github.com/plotly/orca/releases/download/v1.3.1/orca-1.3.1.AppImage) from [here](https://github.com/plotly/orca).
 
-2:) within the ubuntu terminal, make the file executable by <verb> chmod a+rx path/to/orca
+2:) within the ubuntu terminal, make the file executable with chmod a+rx path/to/orca
   
-3:) Finally, execute the file by: xfvb run app image
+3:) Finally, execute the file: xfvb run app image
